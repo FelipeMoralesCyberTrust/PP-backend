@@ -22,7 +22,7 @@ jobs:
 
       #Construccion de la imagen contenedor con nombre
       - name: Build Docker image
-        run: docker build -t felipemoralescybertrust/practicact:latest .
+        run: docker build -t felipemoralescybertrust/practicact:backlatest .
 
       #Login a docker
       - name: Login to Docker Hub
@@ -30,4 +30,4 @@ jobs:
       
       #Push del docker
       - name: Push the Docker image
-        run: docker push felipemoralescybertrust/practicact:latest
+        run: docker push felipemoralescybertrust/practicact:backlatest
