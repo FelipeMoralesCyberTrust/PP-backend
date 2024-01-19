@@ -1,0 +1,10 @@
+Requerimientos:
+npm install axios
+npm install cors
+npm install express
+npm install bodyParser
+npm install dotenv
+npm install fs
+npm install langchain
+npm install OpenAI
+tiktoken

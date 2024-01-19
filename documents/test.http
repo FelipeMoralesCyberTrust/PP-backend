@@ -1,0 +1,3 @@
+
+
+curl -X POST -H "Content-Type: application/json" -d '{ "query": "Cual es el articulo 1 del reglamento de ingenieria civil informatica?" }' http://localhost:3000/chat

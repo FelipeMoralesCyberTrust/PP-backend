@@ -1,0 +1,28 @@
+{
+  "name": "newlang",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@dqbd/tiktoken": "^1.0.7",
+    "@huggingface/inference": "^1.8.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "hnswlib-node": "^1.4.2",
+    "huggingface": "^1.4.0",
+    "ignore": "^5.2.4",
+    "langchain": "^0.0.163",
+    "openai": "^4.11.1",
+    "pdf-parse": "^1.1.1",
+    "transformer-sdk": "^0.1.0-add-transform-hook-866f3af160ec6efaed519df5b48eacc990cf32b8",
+    "transformers": "^3.1.0"
+  }
+}
