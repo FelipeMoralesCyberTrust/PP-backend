@@ -11,7 +11,7 @@ import dotenv from "dotenv";
 import fs from "fs";
 dotenv.config();
 
-
+//borrar esta linea comentada
 
 const prompt = PromptTemplate.fromTemplate(
   
