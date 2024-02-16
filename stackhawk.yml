@@ -2,3 +2,8 @@ app:
   applicationId: 53f0ca63-6592-4ff7-8d4b-a7e5a77c1249
   host: http://example.com
   env: Development
+
+hawk:
+  startupTimeoutMinutes: 1
+  spider:
+    base: false
