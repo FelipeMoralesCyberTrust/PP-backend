@@ -7,6 +7,9 @@ WORKDIR /app
 #Copia los archivos del proyecto al directorio de trabajo en el contenedor
 COPY package*.json ./
 
+# Instala Python y otras dependencias necesarias para node-gyp
+RUN apk add --no-cache python3 make g++
+
 RUN npm install
 #copiar archivos
 COPY . .
