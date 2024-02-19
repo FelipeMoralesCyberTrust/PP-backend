@@ -1,6 +1,6 @@
 #Ejemplo de tutorial docker de la U
 #Establece la imagen base (puedes usar una imagen diferente según tu aplicación)
-FROM node:21.2.0-bullseye
+FROM node:21.6.2-bullseye
 #Establece el directorio de trabajo en el contenedor
 WORKDIR /app
 #Copia los archivos del proyecto al directorio de trabajo en el contenedor
