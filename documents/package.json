@@ -20,7 +20,7 @@
     "huggingface": "^1.4.0",
     "ignore": "^5.3.0",
     "langchain": "^0.0.163",
-    "openai": "^4.11.1",
+    "openai": "^4.26.0",
     "pdf-parse": "^1.1.1",
     "transformer-sdk": "^0.1.0-add-transform-hook-866f3af160ec6efaed519df5b48eacc990cf32b8",
     "transformers": "^3.1.0"
