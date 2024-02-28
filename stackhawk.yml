@@ -1,9 +1,9 @@
 app:
   applicationId: 46b02db5-b6d7-40bf-90e0-3c9c2124ce18c
-  host: http://54.207.206.167:8080
+  host: http://example.com
   env: Development
 
 hawk:
-  startupTimeoutMinutes: 1
+  startupTimeoutMinutes: 5
   spider:
     base: false
